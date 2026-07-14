@@ -17,6 +17,7 @@ set(
     -Wdouble-promotion
 
     -Wno-pre-c++17-compat
+		-Wno-pre-c++20-compat-pedantic
     -Wno-c++98-compat
     -Wno-padded
 )
