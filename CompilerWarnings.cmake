@@ -17,6 +17,7 @@ set(
     -Wdouble-promotion
 
     -Wno-pre-c++17-compat
+    -Wno-c++98-compat
 )
 
 set(GCC_WARNINGS
