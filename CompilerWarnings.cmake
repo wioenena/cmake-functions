@@ -38,7 +38,7 @@ elseif (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
 elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
     set(PROJECT_WARNINGS ${MSVC_WARNINGS})
 else()
-    message(AUTHOR_WARNING "Unknown compiler, cannot apply warning settins: ${CMAKE_CXX_COMPILER_ID}")
+    message(AUTHOR_WARNING "Unknown compiler, cannot apply warning settings: ${CMAKE_CXX_COMPILER_ID}")
 endif()
 
 target_compile_options(${target_name} PRIVATE ${PROJECT_WARNINGS})
