@@ -18,6 +18,7 @@ set(
 
     -Wno-pre-c++17-compat
     -Wno-c++98-compat
+    -Wno-padded
 )
 
 set(GCC_WARNINGS
