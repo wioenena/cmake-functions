@@ -15,6 +15,8 @@ set(
     -Woverloaded-virtual
     -Wnull-dereference
     -Wdouble-promotion
+
+    -Wno-pre-c++17-compat
 )
 
 set(GCC_WARNINGS
